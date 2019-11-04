@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1572848160427.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "351901821",
+    "id" : "421D019",
+    "lastKnownWriteTime" : 1572847989,
+    "last_content_update" : 1572847989,
+    "path" : "~/Documents/apps/LODESexplorer/dev/02_dev.R",
+    "project_path" : "dev/02_dev.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
