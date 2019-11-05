@@ -55,10 +55,18 @@ mod_map_mod_ui <- function(id){
     
 mod_map_mod_server <- function(input, output, session){
   ns <- session$ns
+  
+  # not working for 0 or multiple selections
+
+  ward_dat <- reactive({
+    ward_dat <- sp_blocks_sf %>%
+      dplyr::filter(ward == input$wardSelect)
+    ward_dat <- sf::st_as_sf(ward_dat)
+  })
 
   output$main_map <- leaflet::renderLeaflet({
-  
-    leaflet::leaflet() %>% leaflet::addTiles()
+    leaflet::leaflet() %>% leaflet::addTiles() %>%
+      leaflet::addPolygons(data = ward_dat())
     
   })
 }
