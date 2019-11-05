@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1572916410684.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7FC41710",
+    "lastKnownWriteTime" : 1572920037,
+    "last_content_update" : 1572920037030,
+    "path" : "~/Documents/apps/LODESexplorer/data-raw/app_dat.R",
+    "project_path" : "data-raw/app_dat.R",
+    "properties" : {
+        "cursorPosition" : "46,23",
+        "scrollLine" : "29"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
